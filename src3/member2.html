@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malbas Act. 9</title>
+    <style>
+       #tableLeft {
+           width: 50%;
+           float: left;
+       }
+       #tableRight{
+           width: 50%;
+           float: right;
+       }
+       body{
+            background-image: url("../assets/D.gif");
+            background-repeat:no-repeat;
+            background-size:100% 180%;
+  
+        }
+    </style>
+</head>
+<body>
+    <form method="POST">
+        <center>
+            <h1><font color="gold"><b>MEMBERS REGISTRATION</b></font></h1>
+            <hr size="3" color="gold">
+            &emsp;<a href="../src3/member1.html"><font color="gold">MEMBER INFO</font></a> &nbsp;&nbsp;&nbsp;<font color="gold"> |</font> &nbsp;&nbsp;&nbsp;
+            <font color="gold">OTHER INFO</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gold">|</font> &nbsp;&nbsp;&nbsp;
+            <a href="../src3/member3.html"><font color="gold">ADDRESS</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gold">|</font> &nbsp;&nbsp;&nbsp;
+            <a href="../src3/member4.html"><font color="gold">CONTACTS</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="gold">|</font>  &nbsp;&nbsp;&nbsp;
+            <a href="../src3/member5.html"><font color="gold">MEMBER CATEGORY</font></a>
+            <hr size="3" color="gold">
+            <br>
+        </center>
+        <table width="50%" height="75%" id="tableLeft" >
+            <tr>
+                <tr>
+                    <td align=left height="40" cellpadding="10px" width="30%"><label for="bdate" id="bdate"><h style="margin-left:65%;"><font color="gold">Date of Birth</font></h></label></td>
+                    <td align="left" width="20%"><input type="date" id="bdate" name="bdate" maxlength="30" size="20" ></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                     <td align="left" height="30" width="160" ><label for="pdate" id="pdate"><h style="margin-left:64%;"><font color="gold">Place of Birth</font></h></label></td>
+                     <td align="left" width="300">
+                        <textarea  rows="4" cols="33" id="pdate" name="pdate" ></textarea>
+                    </td>    
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="sex" id="sex"name="sex" ><h style="margin-left:85%;"><font color="gold">Sex</font></h></label></td>
+                    <td><input type="radio" id="sex" name="sex" value="Male"><font color="gold">Male</font>
+                    &nbsp;&nbsp;
+                    <input type="radio" id="sex" name="sex" value="Female"><font color="gold">Female</font> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="height" id="height"name="height" ><h style="margin-left:80%;" ><font color="gold">Height</font></h></label></td>
+                    <td><input type="text" id="height" name="height" maxlength="30" size="10" >&nbsp;<i><font color="gold">(cm)</font></i></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="weight" id="weight"name="weight" ><h style="margin-left:80%;" ><font color="gold">Weight</font></h></label></td>
+                    <td><input type="text" id="weight" name="weight" maxlength="30" size="10" >&nbsp;<i><font color="gold">(kg)</font></i></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="tin" id="tin"name="tin" ><h style="margin-left:85%;"><font color="gold">TIN</font></h></label></td>
+                    <td><input type="text" id="sex" name="sex" maxlength="30" size="3" >
+                        <input type="text" id="sex" name="sex" maxlength="30" size="3" >
+                        <input type="text" id="sex" name="sex" maxlength="30" size="3" >
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="id1" id="id1"name="id1" ><h style="margin-left:70%;"><font color="gold">SSS ID No.</font></h></label></td>
+                    <td><input type="text" id="id1" name="id1" maxlength="30" size="23" ></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="id2" id="id2"name="id2" ><h style="margin-left:68%;"><font color="gold">GSIS ID No.</font></h></label></td>
+                    <td><input type="text" id="id2" name="id2" maxlength="30" size="23" ></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="crn" id="crn"name="crn" ><h style="margin-left:83%;"><font color="gold">CRN</font></h></label></td>
+                    <td><input type="text" id="crn" name="crn" maxlength="30" size="23" ></td>
+                </tr>
+    
+        </table>
+        <br><br>
+        <table width="50%"  id="tableRight"  >  
+                 <tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <td align="left" width="30%" ><label for="category" id="category"name="category" ><h style="margin-left:40%;" ><font color="gold">Civil Status</font></h></label></td>
+                    <td>
+                    <select id="category" name="category">
+                             <option value="Type 1"><font color="gold">Single</font></option>
+                             <option value="Type 2"><font color="gold">Married</font></option>
+                             <option value="Type 3"><font color="gold">Legally Separated</font></option>
+                             <option value="Type 4"><font color="gold">Annulled</font></option>
+                             <option value="Type 5"><font color="gold">Widower</font></option>
+                         </select>
+                    </td>
+                </tr>
+        </table>
+        <br><br>
+        <table >
+            <tr>
+                <td align="left" width="38%"><i><font color="gold">Spouse(Maiden Name if applicable)</font></i></td>
+            </tr>
+        </table>
+       <table  >
+            <tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <td align="left" width="51%"><label for="lastn" id="lastn"><h style="margin-left:40%;" ><font color="gold">Last Name</font></h></label>
+                </td>
+                <td>
+                <input type="text" id="lastn" name="lastn" maxlength="50" size="20" placeholder="NA"> </td>
+           </tr>
+           <tr>
+               <td></td>
+           </tr>
+            <tr>
+               <td></td>
+            </tr>
+           <tr>
+                <td align="left" width="51%"><label for="fn" id="fn"><h style="margin-left:40%;" ><font color="gold">First Name</font></h></label>
+                </td>
+                <td>
+                <input type="text" id="fn" name="fn" maxlength="50" size="20" placeholder="NA"> </td>
+           </tr>
+           <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+         </tr>
+           <tr>
+               <td align="left" width="51%"><label for="ne" id="ne"><h style="margin-left:20%;" ><font color="gold">Name Extension</font></h></label>
+               </td>
+              <td>
+               <input type="text" id="ne" name="ne" maxlength="50" size="20" placeholder="NA"> </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+             </tr>
+            <tr>
+                <td align="left" width="51%"><label for="mn" id="mn"><h style="margin-left:30%;" > <font color="gold">Middle Name</font> </h></label>
+                </td>
+                <td>
+                <input type="text" id="mn" name="mn" maxlength="50" size="20" placeholder="NA"> </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <tr>
+                    <td></td>
+                 </tr>
+                <td align="left" height="30" width="30%" ><label for="p" id="p"><h><font color=""><font color="gold">Prominent Distinguish &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Feature</font></h></label></td>
+                <td align="left" width="100">
+                   <textarea  rows="5" cols="33" id="p" name="p" ></textarea>
+               </td>    
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

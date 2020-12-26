@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ACTIVITY 9 </title>
+    <style>    
+        body{
+            background-image: url("../assets/F.gif");
+            background-repeat:no-repeat;
+            background-size:100% 180%;
+
+      }
+    </style>  
+    </head>
+
+    <body>
+        <form method="POST">
+            <center>
+                <h1><b><font color="silver">MEMBERS REGISTRATION</font></b></h1>
+                <hr size="3" color="silver">
+                <a href="../src3/member1.html"><font color="silver">MEMBER INFO</font></a> &nbsp;&nbsp;&nbsp;&nbsp;<font color="silver"> | </font>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="../src3/member2.html"><font color="silver">OTHER INFO</font></a>&nbsp;&nbsp;&nbsp;&nbsp;<font color="silver">|</font> &nbsp;&nbsp;&nbsp;
+                <a href="../src3/member3.html"><font color="silver">ADDRESS</font></a>&nbsp;&nbsp;&nbsp;&nbsp;<font color="silver"> |</font> &nbsp;&nbsp;&nbsp; &nbsp;
+                <a href="../src3/member4.html"><font color="silver">CONTACTS</font></a>&nbsp;&nbsp;&nbsp;<font color="silver">|</font> &nbsp;&nbsp;&nbsp;
+                <font color="silver">MEMBER CATEGORY</font>
+                <hr size="3" color="silver">
+            </center>
+            <br> <br>
+         
+            <table width=80% >
+                <tr>
+                    <td align="left" width="37%"><label for="category" id="category"name="category" ><h style="margin-left:75%;"><font color="silver">Category</font> </h></label></td>
+                    <td>
+                         <select id="category" name="category">
+                             <option value="Type 1"><font color="silver">Mandatory</font></option>
+                             <option value="Type 2"><font color="silver">Voluntary</font></option>
+                         </select>
+                     </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left" width="31%"><label for="emp" id="emp"><h style="margin-left:62%;"><font color="silver">Employer Name</font></h></label></td>
+                    <td align="left"><input type="text" id="emp" name="emp" maxlength="30" size="60" ></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left" width="37%"><label for="dateemp" id="dateemp"name="dateemp" ><h style="margin-left:63%;"><font color="silver">Date Employed</font> </h></label></td>
+                    <td>
+                         <select id="dateemp" name="dateemp">
+                             <option value="Type 1">-Month</option>
+                             <option value="Type 2">January</option>
+                             <option value="Type 3">Febuary</option>
+                             <option value="Type 4">March</option>
+                             <option value="Type 5">April</option>
+                             <option value="Type 6">May</option>
+                             <option value="Type 7">June</option>
+                             <option value="Type 8">July</option>
+                             <option value="Type 9">August</option>
+                             <option value="Type 10">September</option>
+                             <option value="Type 11">October</option>
+                             <option value="Type 12">November</option>
+                             <option value="Type 13">December</option>
+                         </select>
+                         &emsp;&nbsp;&nbsp;
+                         <input type="text" id="dateemp" name="dateemp" maxlength="30" size="10" >
+                         &nbsp;&nbsp; <i>(YYYY)</i>
+                     </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left" width="31%"><label for="empnum" id="empnum"><h style="margin-left:58%;"><font color="silver">Employee Number</font></h></label></td>
+                    <td align="left"><input type="text" id="empnum" name="empnum" maxlength="30" size="31" ></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left" width="31%"><label for="occup" id="occup"><h style="margin-left:71%;"><font color="silver">Occupation</font></h></label></td>
+                    <td align="left"><input type="text" id="occup" name="occup" maxlength="30" size="43" ></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="empstat" id="empstat"name="empstat" ><h style="margin-left:58%;"><font color="silver">Employment status </font></h></label></td>
+                    <td><input type="radio" id="perm" name="perm" value="perm"><font color="silver">PERMANENT/REGULAR</font>
+                    &nbsp;&nbsp;
+                    <input type="radio" id="cont" name="cont" value="cont"><font color="silver">CONTRACTUAL</font>
+                    <input type="radio" id="temp" name="temp" value="temp"><font color="">TEMPORARY/ PART-TIME</font>
+                 </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="left"><label for="cas" id="cas"name="cas" ><h style="margin-left:58%;"><font color="silver"></font></h></label></td>
+                    <td align="left">
+                    <input type="radio" id="cas" name="cas" value="cas"><font color="silver">CASUAL</font>
+                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" id="proj" name="proj" value="proj"><font color="silver">PROJECT-BASED</font>
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                   <td></td>
+                </tr>
+                <tr>
+                   <td></td>
+               </tr>
+                <tr>
+                  <td></td>
+               </tr>
+                
+                <tr>
+                    <td align="left"><label for="checkbox" id="mode"name="mode" ><h style="margin-left:58%;"><font color="silver">Model of Payment</font></h></label></td>
+                    <td>
+                        <input type="checkbox" id="mode" name="mode" value="HO"><font color="silver">Head Office</font>
+                        &nbsp;
+                        <input type="checkbox" id="mode" name="mode" value="Br"><font color="silver">Branch</font>
+                        &nbsp;
+                        <input type="text" id="empnum" name="empnum" maxlength="30" size="19" >
+                     </td>
+                </tr>
+                 </tr>
+                </tr>
+                <tr>
+                   <td></td>
+                </tr>
+                <tr>
+                   <td></td>
+               </tr>
+                <tr>
+                  <td></td>
+               </tr>
+                <tr>
+                    <td align="left" width="31%"><label for="empnum" id="empnum"><h style="margin-left:67%;"><font color="silver">Basic Income</font></h></label></td>
+                    <td align="left"><input type="text" id="empnum" name="empnum" maxlength="30" size="30" ></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
